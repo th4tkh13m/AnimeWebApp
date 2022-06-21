@@ -12,7 +12,7 @@ import java.sql.Date;
  */
 public class Anime {
 
-    private int anime_id;
+    private int animeId;
     private String title, title_english, title_japanese, title_synonyms, image_url, type, source;
     private int episodes;
     private String status, duration, rating;
@@ -23,8 +23,8 @@ public class Anime {
     private String premiered, licensor, studio;
     private Date airedFrom, airedTo;
 
-    public Anime(int anime_id, String title, String title_english, String title_japanese, String title_synonyms, String image_url, String type, String source, int episodes, String status, String duration, String rating, float score, int scored_by, float rank, int popularity, int members, int favorites, String premiered, String licensor, String studio, Date airedFrom, Date airedTo) {
-        this.anime_id = anime_id;
+    public Anime(int animeId, String title, String title_english, String title_japanese, String title_synonyms, String image_url, String type, String source, int episodes, String status, String duration, String rating, float score, int scored_by, float rank, int popularity, int members, int favorites, String premiered, String licensor, String studio, Date airedFrom, Date airedTo) {
+        this.animeId = animeId;
         this.title = title;
         this.title_english = title_english;
         this.title_japanese = title_japanese;
@@ -49,8 +49,8 @@ public class Anime {
         this.airedTo = airedTo;
     }
 
-    public int getAnime_id() {
-        return anime_id;
+    public int getAnimeId() {
+        return animeId;
     }
 
     public String getTitle() {
@@ -141,6 +141,4 @@ public class Anime {
         return airedTo;
     }
 
-    
-    
 }
