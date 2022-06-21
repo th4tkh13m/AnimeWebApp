@@ -1,44 +1,44 @@
 genre_id,genre_name
-1,Thriller
-2,Game
-3,Magic
-4,Kids
-5,Music
-6,Super Power
-7,Samurai
-8,Shoujo Ai
-9,Historical
-10,Yuri
-11,Vampire
-12,Yaoi
-13,Romance
-14,Sports
-15,Fantasy
-16,Ecchi
-17,Hentai
-18,Shounen Ai
-19,Harem
-20,Demons
-21,Space
-22,Seinen
-23,Military
-24,Cars
-25,Psychological
-26,School
-27,Slice of Life
-28,Shoujo
-29,Parody
-30,Adventure
-31,Drama
-32,Mecha
-33,Sci-Fi
-34,Josei
-35,Comedy
-36,Shounen
-37,Supernatural
-38,Martial Arts
-39,Action
-40,Dementia
-41,Horror
-42,Mystery
-43,Police
+1,Sports
+2,Music
+3,Super Power
+4,Comedy
+5,Harem
+6,Ecchi
+7,Yuri
+8,Shounen
+9,Samurai
+10,Martial Arts
+11,Historical
+12,Drama
+13,School
+14,Romance
+15,Seinen
+16,Demons
+17,Yaoi
+18,Josei
+19,Action
+20,Police
+21,Kids
+22,Magic
+23,Horror
+24,Vampire
+25,Sci-Fi
+26,Dementia
+27,Adventure
+28,Game
+29,Slice of Life
+30,Shoujo Ai
+31,Mystery
+32,Military
+33,Thriller
+34,Parody
+35,Shoujo
+36,Space
+37,Psychological
+38,Cars
+39,Fantasy
+40,Mecha
+41,Supernatural
+42,Shounen Ai
+43,Hentai

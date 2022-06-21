@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-	 version="3.1">
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:sqlserver://172.17.0.2;encrypt=true;trustServerCertificate=true;databaseName=AnimeWebApp;</param-value>
+    </context-param>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>anime_user</param-value>
+    </context-param>
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>AnimeWebApp</param-value>
+    </context-param>
     <session-config>
         <session-timeout>
             30
